@@ -1,79 +1,64 @@
  <!--==================================================-->
-    <!-- Start restho Footer Area -->
+    <!-- Start SS Masala Footer Area -->
     <!--==================================================-->
+    <style>
+      .footer-logo img {
+          max-width: 100%;
+          height: auto;
+          max-height: 98px; 
+      }
+      /* .logo {
+          display: flex;
+          align-items: center;
+      }
+      .main_sticky img {
+          max-width: 100%;
+          height: auto;
+          max-height: 98px;
+      } */
+      
+    </style>
     <div class="footer-area">
-      <video autoplay loop muted class="footer-inner-bg">
-        <source src="assets/images/video/footer-video.mp4" />
-      </video>
+     
       <div class="container">
-        <div class="row footer wow custom-anim-left">
+        <!-- <div class="row footer wow custom-anim-left">
           <div class="col-lg-12">
             <div class="footer-logo text-center">
               <a href="index.html"
-                ><img src="assets/images/footer-logo.png" alt="logo"
+                ><img src="assets/images/logo1.png" alt="logo"
               /></a>
             </div>
           </div>
-        </div>
+        </div> -->
         <div class="row">
-          <div class="col-lg-2 col-md-6 col-sm-6">
-            <div class="foter-single-box wow custom-anim-left">
-              <div class="footer-wiget-title">
-                <h5>About</h5>
-              </div>
-              <div class="footer-wiget-menu">
-                <ul>
-                  <li><a href="index.html">Home</a></li>
-                  <li><a href="about.html">About Us</a></li>
-                  <li><a href="contact.html">Contact Us</a></li>
-                  <li><a href="food-menu.html">Our Menu</a></li>
-                  <li><a href="food-menu-2.html">Reservation</a></li>
-                </ul>
-              </div>
+        <div class="col-lg-5 col-md-6 mb-4 mb-md-0">
+          <div class="foter-single-box wow custom-anim-left">
+            <div class="footer-wiget-title">
+              <h5>About SS Masala</h5>
             </div>
+            <div class="footer-wiget-desc">
+              <p style="color: #aeb3b7;">SS Masala brings you the finest, purest spices sourced directly from organic farms. 
+              Our spices are carefully selected, processed, and packaged to preserve their natural aroma and potency.</p>
+            </div>
+
           </div>
-          <div class="col-lg-2 col-md-6 col-sm-6">
+        </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
             <div class="foter-single-box wow custom-anim-left">
               <div class="footer-wiget-title">
                 <h5>Facilities</h5>
               </div>
               <div class="footer-wiget-menu">
                 <ul>
-                  <li><a href="menu.html">Private Functions</a></li>
-                  <li><a href="gallery.html">Menu Gallery</a></li>
-                  <li><a href="food-menu-2.html">Special Offers</a></li>
-                  <li><a href="popular-menu.html">Special Menu</a></li>
-                  <li><a href="food-menu.html">Weekend Menu</a></li>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Popular Spices</a></li>
+                  <li><a href="#">Products</a></li>
+                  <li><a href="#">Gallery</a></li>
                 </ul>
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="foter-single-box wow custom-anim-left">
-              <div class="footer-wiget-title">
-                <h5>Newsletters</h5>
-              </div>
-              <div class="footer-wiget-disc">
-                <p>
-                  Dolor sit amet consectetur adipiscing elit sed do eiusmod
-                  tempor incididunt labore et dolore
-                </p>
-              </div>
-              <form action="https://formspree.io/f/myyleorq" method="POST">
-                <div class="form-field">
-                  <input
-                    type="email"
-                    name="EMAIL"
-                    placeholder="Enter Your Email Address"
-                    required=""
-                  />
-                  <button class="submit-button" type="submit">
-                    <i class="bi bi-arrow-right"></i>
-                  </button>
-                </div>
-              </form>
-            </div>
-          </div>
+         
           <div class="col-lg-4 col-md-6">
             <div class="footer-wiget-quick-contanct wow custom-anim-left">
               <div class="footer-wiget-title">
@@ -82,14 +67,13 @@
               <div class="footer-wiget-contact-menu">
                 <ul>
                   <li>
-                    <i class="fa-solid fa-location-dot"></i> 55 Main Street,
-                    D-Block, 2nd Floor, <span>Melbourne, Australia</span>
+                    <i class="fa-solid fa-location-dot"></i> Bharuch, Gujarat 392001,India</span>
                   </li>
                   <li>
-                    <i class="fa-regular fa-envelope"></i>example@gmail.com
+                    <i class="fa-regular fa-envelope"></i>MYSSMASALA@GMAIL.COM
                   </li>
-                  <li><i class="fa-solid fa-phone"></i> +012 (658) 69 000</li>
-                  <li><i class="fa-regular fa-clock"></i>09 am - 08 pm</li>
+                  <li><i class="fa-solid fa-phone"></i>+91 9725820297</li>
+                  <!-- <li><i class="fa-regular fa-clock"></i>09 am - 08 pm</li> -->
                 </ul>
               </div>
             </div>
@@ -98,7 +82,7 @@
         <div class="row footer-line align-items-center wow custom-anim-left">
           <div class="col-lg-6 col-md-8">
             <div class="copyright-text">
-              <p>Copyright @ 2025 <span>Restho</span> ALL Right Reserved</p>
+              <p>Copyright @ 2025 <span>SS Masala</span> ALL Right Reserved</p>
             </div>
           </div>
           <div class="col-lg-6 col-md-4">
@@ -123,7 +107,7 @@
       </div>
     </div>
     <!--==================================================-->
-    <!-- End restho Footer Area -->
+    <!-- End SS Masala Footer Area -->
     <!--==================================================-->
 
     <!--==================================================-->
@@ -185,6 +169,55 @@
     });
 
     </script>
+    <script>
+  $(document).ready(function() {
+    // Smooth scrolling for navigation links
+    $('a[href^="#"]').on('click', function(event) {
+      // Exclude links that don't have href with #
+      if (this.hash !== "") {
+        event.preventDefault();
+        
+        var target = $(this.hash);
+        if (target.length) {
+          $('html, body').stop().animate({
+            scrollTop: target.offset().top - 80
+          }, 1000);
+        }
+      }
+    });
+    
+    // Update active navigation link on scroll
+    $(window).scroll(function() {
+      var scrollDistance = $(window).scrollTop();
+      
+      // Add/remove .active class based on scroll position
+      $('section').each(function(i) {
+        if ($(this).position().top - 100 <= scrollDistance) {
+          $('.nav_scroll li a.active').removeClass('active');
+          $('.nav_scroll li a[href="#' + $(this).attr('id') + '"]').addClass('active');
+        }
+      });
+      
+      // Show/hide back to top button
+      if ($(this).scrollTop() > 300) {
+        $('.back-to-top').fadeIn();
+      } else {
+        $('.back-to-top').fadeOut();
+      }
+    });
+    
+    // Initialize Owl Carousel
+    $(".hero-slider").owlCarousel({
+      items:1,
+      loop:true,
+      autoplay:true,
+      autoplayTimeout:4000,
+      smartSpeed:800,
+      nav:true,
+      dots:true
+    });
+  });
+</script>
   </body>
 
 </html>

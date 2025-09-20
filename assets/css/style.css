@@ -173,7 +173,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
 .style-two .header-top-info ul li i {
   display: inline-block;
   font-size: 14px;
-  color: #bf9545;
+  color: #C0392B;
   margin-right: 10px;
 }
 
@@ -185,7 +185,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
 }
 
 .style-two .header-top-social ul li a:hover {
-  color: #bf9545;
+  color: #C0392B;
 }
 
 .style-two .header-top-social {
@@ -542,7 +542,7 @@ nav.restho_menu span {
  <!--restho Main Menu Area home two-->
 <!-- ======================================= -->*/
 .restho_nav_manu.styl-two.sticky {
-  background: #bf9444 !important;
+  background: #C0392B!important;
 }
 
 .restho_nav_manu.styl-two.sticky .logo {
@@ -585,7 +585,7 @@ nav.restho_menu span {
   z-index: -1;
   width: 1391px;
   height: 100px;
-  background-color: #bf9545;
+  background-color:#C0392B;
 }
 
 .styl-two .header-search-btn {
@@ -701,11 +701,11 @@ nav.restho_menu span {
   margin-top: -200px;
   border-radius: 50%;
   text-align: center;
-  background: #bf9545;
+  background: #C0392B;
   width: 70px;
   cursor: pointer;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
-  border-bottom: 3px solid #bf9545;
+  border-bottom: 3px solid #C0392B;
   border-left: 3px solid #393939;
   border-top: 3px solid #fff;
   border-right: 3px solid #393939;
@@ -1516,7 +1516,7 @@ section.restho-hero-area.style-two {
 .section-sub-title h5 {
   margin-bottom: 20px;
   font-size: 20px;
-  color: #bf9444;
+  color: #c0392b;
   font-weight: 500;
   font-family: "Jost";
   margin-top: 0;
@@ -1537,7 +1537,7 @@ section.restho-hero-area.style-two {
 .section-main-title h1 span {
   font-size: 45px;
   font-weight: 600;
-  color: #bf9444;
+  color: #c0392b;
   margin: 0 0px 0 10px;
 }
 
@@ -3599,7 +3599,7 @@ section.restho-hero-area.style-two {
 .footer-area {
   padding: 80px 0 0;
   position: relative;
-  background-color: rgb(1 16 30 / 80%);
+  background-color: rgb(38 43 16);
   overflow: hidden;
 }
 
@@ -3836,24 +3836,38 @@ video.footer-inner-bg {
 }
 
 .style-one .flip-box-back {
-  background: url(../images/home-2/food-back.png);
+  position: absolute;
+  top: 0;
+  left: 0;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   transform: rotateY(180deg);
 }
 
-.style-one .flip-box:hover .flip-box-inner {
-  transform: rotateY(180deg);
+/* Remove the duplicate .flip-box-back rule that sets butterchiken.jpg */
+.style-one .flip-box-back.img-1 {
+  background-image: url(../images/products/tandoor.jpg);
 }
 
+.style-one .flip-box-back.img-2 {
+  background-image: url(../images/products/greenchiken.jpg);
+}
+
+.style-one .flip-box-back.img-3 {
+  background-image: url(../images/products/pavbhaji.jpg);
+}
+
+.style-one .flip-box-back.img-4 {
+  background-image: url(../images/products/fish.jpg);
+}
 .style-one .front-box-icon {
   height: 151px;
   width: 151px;
   line-height: 151px;
   text-align: center;
   display: inline-block;
-  background: #bf9444;
+  background: #c0392b;
   border-radius: 100%;
   position: relative;
   z-index: 1;
@@ -4735,7 +4749,7 @@ button.password {
 .login-account-area li.current a {
   color: #fff;
   border-radius: 5px;
-  background: #bf9444 !important;
+  background: #C0392B!important;
   padding: 10px 32px;
   display: inline-block;
 }
@@ -4989,7 +5003,7 @@ section.pricing_area.style_one {
 
 .style_one li.list_cricle {
   font-size: 18px;
-  color: #bf9444 !important;
+  color: #C0392B!important;
 }
 
 .style_one .pricing-btn.restho-btn2 a {
@@ -5079,7 +5093,7 @@ section.pricing_area.style_one li.current a {
   color: #fff;
   height: 42px;
   border-radius: 21px;
-  background: #bf9444 !important;
+  background: #C0392B!important;
 }
 
 /*=========================================
@@ -5978,7 +5992,7 @@ span.widget-sidber-service {
 }
 
 .style-one .menu-board-single-box {
-  border: 1px solid #bf9545;
+  border: 1px solid #C0392B;
   padding: 20px 34px 3px;
   border-radius: 20px;
 }
@@ -5998,7 +6012,7 @@ span.widget-sidber-service {
   content: '';
   width: 210px;
   height: 1px;
-  background: #bf9545;
+  background: #C0392B;
   left: 150px;
   top: 20px;
 } */
@@ -6273,7 +6287,7 @@ span.widget-sidber-service {
 
 .style-two li.current a {
   color: #fff;
-  background-color: #bf9444 !important;
+  background-color: #C0392B!important;
 }
 
 /* best offer css */
@@ -7236,7 +7250,7 @@ button {
 }
 
 .btn.btn_primary {
-  background-color: #bf9444 !important;
+  background-color: #C0392B!important;
   color: #fff;
 }
 
@@ -7943,7 +7957,7 @@ button.btn.btn-dark {
 }
 
 li.list-arrow {
-  color: #bf9444 !important;
+  color: #C0392B!important;
 }
 
 .breadcumb-content ul li a {
@@ -8378,7 +8392,7 @@ h4.skill-title {
 }
 
 span.fill {
-  background: #bf9444 !important;
+  background: #C0392B!important;
   border-radius: 5px;
 }
 

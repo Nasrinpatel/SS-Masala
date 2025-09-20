@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Hot Restho Restaurant HTML Template</title>
+    <title>SS MASALA</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- Favicon -->
@@ -140,7 +140,7 @@
     <div class="cursor2"></div>
 
     <!--==================================================-->
-    <!-- Start restho Header top area style-two -->
+    <!-- Start SS Masala Header top area style-two -->
     <!--==================================================-->
     <div class="header-top-area style-two">
       <div class="container">
@@ -153,8 +153,8 @@
                   ><span>MYSSMASALA@GMAIL.COM</span>
                 </li>
                 <li>
-                  <i class="fa-solid fa-location-dot"></i
-                  ><span> 1504 Washington Ave, United States</span>
+                  <!-- <i class="fa-solid fa-location-dot"></i> -->
+                  <span> Freshly Sourced, Pure Spices for Every Taste</span>
                 </li>
                 <li>
                   <i class="fa-solid fa-phone"></i><span> +91 9725820297</span>
@@ -189,7 +189,7 @@
     <!--==================================================-->
 
     <!--==================================================-->
-    <!-- Start restho Main Menu Area -->
+    <!-- Start SS Masala Main Menu Area -->
     <!--==================================================-->
     <div id="sticky-header" class="restho_nav_manu styl-two">
       <div class="container">
@@ -207,68 +207,36 @@
           <div class="col-xl-9 col-lg-9">
             <nav class="restho_menu">
               <ul class="nav_scroll">
-                <li>
-                  <a href="#">Home<i class="fa-solid fa-angle-down"></i></a>
-                  <ul class="sub-menu">
-                    <li><a href="index.html">Home Version 01</a></li>
-                    <li><a href="index-2.html">Home Version 02</a></li>
-                    <li><a href="index-3.html">Home Version 03</a></li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="#">Pages<i class="fa-solid fa-angle-down"></i></a>
-                  <ul class="sub-menu">
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="service.html">Services</a></li>
-                    <li><a href="service-details.html">Services Details</a></li>
-                    <li><a href="team.html">Team</a></li>
-                    <li><a href="team-details.html">Team Details</a></li>
-                    <li><a href="testimonial.html">Testimonials</a></li>
-                    <li><a href="pricing.html">Pricing</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="account.html">Account</a></li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="#">Menu<i class="fa-solid fa-angle-down"></i></a>
-                  <ul class="sub-menu">
-                    <li><a href="food-menu.html">Menu List</a></li>
-                    <li><a href="food-menu-2.html">Food Menu</a></li>
-                    <li><a href="popular-menu.html">Menu Grid</a></li>
-                    <li><a href="menu.html">Choose Menu</a></li>
-                    <li><a href="gallery.html">Gallery Menu</a></li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="#">Shop<i class="fa-solid fa-angle-down"></i></a>
-                  <ul class="sub-menu">
-                    <li><a href="shop.html">Shop</a></li>
-                    <li><a href="shop-details.html">Shop Details</a></li>
-                    <li><a href="cart.html">Shopping Cart</a></li>
-                    <li><a href="checkout.html">Checkout</a></li>
-                    <li><a href="account.html">Account</a></li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="#">Blog<i class="fa-solid fa-angle-down"></i></a>
-                  <ul class="sub-menu">
-                    <li><a href="blog-grid.html">Blog Grid</a></li>
-                    <li><a href="blog-list.html">Blog List</a></li>
-                    <li><a href="blog-details.html">Blog Details</a></li>
-                  </ul>
-                </li>
-                <li><a href="contact.html">Contact</a></li>
+                 <li>
+                    <a href="#home">Home</a>
+                  </li>
+                  <li>
+                    <a href="#about">About Us</a>
+                  </li>
+                  <li>
+                    <a href="#popular">Popular Spices</a>
+                  </li>
+                  <li>
+                    <a href="#products">Products</a>
+                  </li>
+                  <li>
+                    <a href="#inquiry">Inquiry</a>
+                  </li>
+                  <li>
+                    <a href="#gallery">Gallery</a>
+                  </li>
+                  
+                
               </ul>
               <div class="header-search-btn">
-                <div class="header-secrch-icon">
+                <!-- <div class="header-secrch-icon">
                   <a class="search-box-btn search-box-outer" href="#"
                     ><i class="bi bi-search"></i
                   ></a>
-                </div>
+                </div> -->
                 <div class="restho-btn2">
-                  <a href="contact.html"
-                    >Contact Us <i class="fa-solid fa-arrow-right"></i
-                  ></a>
+                  <a href="#contact"
+                    >Contact Us</a>
                 </div>
               </div>
             </nav>
@@ -277,66 +245,25 @@
       </div>
     </div>
 
-    <!-- restho Mobile Menu Area -->
+    <!-- SS Masala Mobile Menu Area -->
     <div class="mobile-menu-area sticky d-sm-block d-md-block d-lg-none">
       <div class="mobile-menu">
         <nav class="restho_menu">
           <ul class="nav_scroll">
-            <li>
-              <a href="#">Home<i class="fa-solid fa-angle-down"></i></a>
-              <ul class="sub-menu">
-                <li><a href="index.html">Home Version 01</a></li>
-                <li><a href="index-2.html">Home Version 02</a></li>
-                <li><a href="index-3.html">Home Version 03</a></li>
-              </ul>
-            </li>
-            <li>
-              <a href="#">Pages<i class="fa-solid fa-angle-down"></i></a>
-              <ul class="sub-menu">
-                <li><a href="about.html">About</a></li>
-                <li><a href="service.html">Services</a></li>
-                <li><a href="service-details.html">Services Details</a></li>
-                <li><a href="team.html">Team</a></li>
-                <li><a href="team-details.html">Team Details</a></li>
-                <li><a href="testimonial.html">Testimonials</a></li>
-                <li><a href="pricing.html">Pricing</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="account.html">Account</a></li>
-              </ul>
-            </li>
-            <li>
-              <a href="#">Menu<i class="fa-solid fa-angle-down"></i></a>
-              <ul class="sub-menu">
-                <li><a href="food-menu.html">Menu List</a></li>
-                <li><a href="food-menu-2.html">Food Menu</a></li>
-                <li><a href="popular-menu.html">Menu Grid</a></li>
-                <li><a href="menu.html">Choose Menu</a></li>
-                <li><a href="gallery.html">Gallery Menu</a></li>
-              </ul>
-            </li>
-            <li>
-              <a href="#">Shop<i class="fa-solid fa-angle-down"></i></a>
-              <ul class="sub-menu">
-                <li><a href="shop.html">Shop</a></li>
-                <li><a href="shop-details.html">Shop Details</a></li>
-                <li><a href="cart.html">Shopping Cart</a></li>
-                <li><a href="checkout.html">Checkout</a></li>
-                <li><a href="account.html">Account</a></li>
-              </ul>
-            </li>
-            <li>
-              <a href="#">Blog<i class="fa-solid fa-angle-down"></i></a>
-              <ul class="sub-menu">
-                <li><a href="blog-grid.html">Blog Grid</a></li>
-                <li><a href="blog-list.html">Blog List</a></li>
-                <li><a href="blog-details.html">Blog Details</a></li>
-              </ul>
-            </li>
-            <li><a href="contact.html">Contact</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About us</a></li>
+                <li><a href="#popular">Popular Spices</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#inquiry">Inquiry</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                
+            </ul>
+            
+            <li><a href="#">Contact</a></li>
           </ul>
         </nav>
       </div>
     </div>
     <!--==================================================-->
-    <!-- End restho Main Menu Area -->
+    <!-- End SS Masala Main Menu Area -->
     <!--==================================================-->
