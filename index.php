@@ -28,9 +28,7 @@
             outline: none;
             border-color: #b3541e;
             box-shadow: 0 0 0 3px rgba(179, 84, 30, 0.1);
-        }
-        
-       
+        } 
 </style>
 <section id="home">
   <!-- Slider -->
@@ -405,7 +403,7 @@
 <!--==================================================-->
 
 <!--==================================================-->
-  <!--start restho shop area style-one-->
+  <!--start SS MASALA shop area style-one-->
 <!--==================================================-->
 <section id="products">
     <div class="restho-shop-area style-one">
@@ -837,7 +835,7 @@
 </section>
 
 <!--==================================================-->
-    <!--End restho shop area style-one-->
+    <!--End SS MASALA shop area style-one-->
 <!--==================================================-->
 <section id="inquiry">
  <!-- Start SS Masala Contact Area style-one -->
