@@ -9209,3 +9209,102 @@ button.icons {
     transform: rotate(-360deg);
   }
 }
+
+
+/*---=====================================================
+  SS Masala testimonial review slider layout
+=========================================================---*/
+.style-two .review-slider {
+  overflow: hidden;
+}
+
+.style-two .review-slider-card {
+  margin-bottom: 30px;
+  border-radius: 8px;
+  border: 1px solid rgb(85 85 85 / 15%);
+  padding: 26px 24px;
+  background: #fff;
+  min-height: 320px;
+}
+
+.style-two .review-slider-card h4 {
+  font-size: 28px;
+  line-height: 1.35;
+  color: #01101e;
+  font-weight: 600;
+  font-family: "Jost";
+  margin: 0 0 10px;
+}
+
+.style-two .review-stars {
+  margin-bottom: 14px;
+}
+
+.style-two .review-stars i {
+  color: #feba01;
+  margin-right: 2px;
+}
+
+.style-two .review-product,
+.style-two .review-client,
+.style-two .review-time,
+.style-two .review-text {
+  font-size: 17px;
+  line-height: 1.55;
+  color: #555;
+  font-family: "Jost";
+  margin: 0 0 8px;
+}
+
+.style-two .review-product,
+.style-two .review-client {
+  color: #222;
+  font-weight: 500;
+}
+
+.style-two .review-text {
+  margin-top: 4px;
+  margin-bottom: 0;
+  color: #666;
+}
+
+.style-two .review-slider .swiper-pagination {
+  position: relative;
+  bottom: 0;
+  margin-top: 8px;
+}
+
+.style-two .review-slider .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background: #cfcfcf;
+  opacity: 1;
+}
+
+.style-two .review-slider .swiper-pagination-bullet-active {
+  background: #C0392B;
+}
+
+@media (max-width: 1399px) {
+  .style-two .review-slider-card h4 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 575px) {
+  .style-two .review-slider-card {
+    padding: 20px 18px;
+    min-height: 0;
+  }
+
+  .style-two .review-slider-card h4 {
+    font-size: 21px;
+  }
+
+  .style-two .review-product,
+  .style-two .review-client,
+  .style-two .review-time,
+  .style-two .review-text {
+    font-size: 16px;
+  }
+}

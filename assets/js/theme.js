@@ -339,12 +339,12 @@
     // testi2 active js
     var swiper = new Swiper(".testi2-active", {
       slidesPerView: 3,
-        spaceBetween: 30,
-        loop: true,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
+      spaceBetween: 30,
+      loop: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
       breakpoints: {
         0: {
           slidesPerView: 1,
@@ -359,19 +359,14 @@
           slidesPerView: 1,
         },
         992: {
-          slidesPerView: 2,
+          slidesPerView: 1,
         },
         1400: {
-          slidesPerView: 3,
+          slidesPerView: 1,
         },
-  
         1920: {
-          slidesPerView: 3,
+          slidesPerView: 1,
         },
-      },
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
       },
     });
     
@@ -581,4 +576,5 @@
 
   
 })(jQuery);
+
 
