@@ -50,10 +50,10 @@
               </div>
               <div class="footer-wiget-menu">
                 <ul>
-                  <li><a href="#">About Us</a></li>
-                  <li><a href="#">Popular Spices</a></li>
-                  <li><a href="#">Products</a></li>
-                  <li><a href="#">Gallery</a></li>
+                  <li><a href="#about">About Us</a></li>
+                  <li><a href="#popular">Popular Spices</a></li>
+                  <li><a href="#products">Products</a></li>
+                  <li><a href="#gallery">Gallery</a></li>
                 </ul>
               </div>
             </div>

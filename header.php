@@ -111,7 +111,7 @@
       .logo_img img {
           max-width: 100%;
           height: auto;
-          max-height: 98px; 
+          max-height: 99px; 
       }
       .logo {
           display: flex;
@@ -120,7 +120,7 @@
       .main_sticky img {
           max-width: 100%;
           height: auto;
-          max-height: 98px;
+          max-height: 99px;
       }
       
     </style>
@@ -153,11 +153,11 @@
                   ><span>MYSSMASALA@GMAIL.COM</span>
                 </li>
                 <li>
-                  <!-- <i class="fa-solid fa-location-dot"></i> -->
-                  <span> Freshly Sourced, Pure Spices for Every Taste</span>
+                  <i class="fa-solid fa-phone"></i><span> +91 9725820297</span>
                 </li>
                 <li>
-                  <i class="fa-solid fa-phone"></i><span> +91 9725820297</span>
+                  <!-- <i class="fa-solid fa-location-dot"></i> -->
+                  <span> Freshly Sourced, Pure Spices for Every Taste</span>
                 </li>
               </ul>
             </div>
@@ -197,10 +197,10 @@
           <div class="col-lg-3">
             <div class="logo">
               <a class="logo_img" href="index.php" title="SS Masala">
-                <img src="assets/images/logo2.jpg" alt="logo" />
+                <img src="assets/images/logo.png" alt="logo" />
               </a>
               <a class="main_sticky" href="index.php" title="SS Masala">
-                <img src="assets/images/logo2.jpg" alt="astute" />
+                <img src="assets/images/logo.png" alt="astute" />
               </a>
             </div>
           </div>

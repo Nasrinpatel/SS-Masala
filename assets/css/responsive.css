@@ -65,7 +65,7 @@
 
 /* home page 02 */
 .restho_nav_manu.styl-two::before {
-  width: 1130px;
+  width: 100%;
 }
 
 /* home page 03 */
@@ -218,8 +218,8 @@
 }
 
 .styl-two .logo {
-  margin-left: -35px;
-  margin-top: -1px;
+  /*margin-left: -35px;*/
+  /*margin-top: -1px;*/
 }
 
 .about-area.style-three .section-main-title h1 {

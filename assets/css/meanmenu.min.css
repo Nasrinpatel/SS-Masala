@@ -1,5 +1,5 @@
 .mean-container .mean-bar {
-  background:#937a4b;
+  background:#C0392B;
   float: left;
   min-height: 60px;
   padding: 4px 0 0;
@@ -178,7 +178,7 @@
 }
 .mean-container .mean-bar::before {
   color: #fff;
-  content: "restho";
+  content: "My SS Masala";
   font-size: 28px;
   font-weight: 600;
   left: 10px;

@@ -418,7 +418,7 @@
                         alt="icon" /></span>  Our Premium Products
                   </h5>
                 </div>
-                <div class="section-main-title">
+                <div class="section-main-title" style="margin-bottom: 100px;">
                   <h1>Authentic Indian Masalas & Spices</h1>
                 </div>
               </div>
@@ -945,7 +945,7 @@
                     alt=""
                   />
                   <div class="gallery-thumb-icon">
-                    <i class="fa-regular fa-square"></i>
+                    <i class="fa fa-magnifying-glass"></i>
                   </div>
                 </a>
               </div>
@@ -963,7 +963,7 @@
                     alt=""
                   />
                   <div class="gallery-thumb-icon">
-                    <i class="fa-regular fa-square"></i>
+                    <i class="fa fa-magnifying-glass"></i>
                   </div>
                 </a>
               </div>
@@ -981,7 +981,7 @@
                     alt=""
                   />
                   <div class="gallery-thumb-icon">
-                    <i class="fa-regular fa-square"></i>
+                    <i class="fa fa-magnifying-glass"></i>
                   </div>
                 </a>
               </div>
@@ -999,7 +999,7 @@
                     alt=""
                   />
                   <div class="gallery-thumb-icon">
-                    <i class="fa-regular fa-square"></i>
+                    <i class="fa fa-magnifying-glass"></i>
                   </div>
                 </a>
               </div>
@@ -1017,7 +1017,7 @@
                     alt=""
                   />
                   <div class="gallery-thumb-icon">
-                    <i class="fa-regular fa-square"></i>
+                    <i class="fa fa-magnifying-glass"></i>
                   </div>
                 </a>
               </div>
@@ -1035,7 +1035,7 @@
                     alt=""
                   />
                   <div class="gallery-thumb-icon">
-                    <i class="fa-regular fa-square"></i>
+                    <i class="fa fa-magnifying-glass"></i>
                   </div>
                 </a>
               </div>
