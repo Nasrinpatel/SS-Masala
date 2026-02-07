@@ -356,16 +356,16 @@
           slidesPerView: 1,
         },
         768: {
-          slidesPerView: 1,
+          slidesPerView: 2,
         },
         992: {
-          slidesPerView: 1,
+          slidesPerView: 2,
         },
         1400: {
-          slidesPerView: 1,
+          slidesPerView: 3,
         },
         1920: {
-          slidesPerView: 1,
+          slidesPerView: 3,
         },
       },
     });
