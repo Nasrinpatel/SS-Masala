@@ -156,20 +156,6 @@
     <script src="assets/js/main.js"></script>
     <!-- Owl Carousel Init -->
     <script>
-    $(document).ready(function(){
-      $(".hero-slider").owlCarousel({
-        items:1,
-        loop:true,
-        autoplay:true,
-        autoplayTimeout:4000,
-        smartSpeed:800,
-        nav:true,
-        dots:true
-      });
-    });
-
-    </script>
-    <script>
   $(document).ready(function() {
     // Smooth scrolling for navigation links
     $('a[href^="#"]').on('click', function(event) {
@@ -204,17 +190,35 @@
       } else {
         $('.back-to-top').fadeOut();
       }
-    });
-    
-    // Initialize Owl Carousel
-    $(".hero-slider").owlCarousel({
+    });    // Initialize Owl Carousel + sync hero text with active slide
+    var $heroSlider = $(".hero-slider");
+    var $heroKicker = $(".hero-kicker");
+    var $heroTitle = $(".hero-content-grid h1");
+    var $heroDesc = $(".hero-content-grid p");
+
+    function syncHeroText() {
+      var $active = $heroSlider.find(".owl-item.active .single-slide").first();
+      if (!$active.length) return;
+
+      var kicker = $active.attr("data-kicker") || "";
+      var title = $active.attr("data-title") || "";
+      var desc = $active.attr("data-desc") || "";
+
+      $heroKicker.text(kicker);
+      $heroTitle.text(title);
+      $heroDesc.text(desc);
+    }
+
+    $heroSlider.owlCarousel({
       items:1,
       loop:true,
       autoplay:true,
       autoplayTimeout:4000,
       smartSpeed:800,
       nav:true,
-      dots:true
+      dots:true,
+      onInitialized: syncHeroText,
+      onChanged: syncHeroText
     });
   });
 </script>
