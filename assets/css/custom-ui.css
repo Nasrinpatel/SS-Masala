@@ -1767,24 +1767,36 @@ body.loaded .counter-single-box {
   background-position: center;
 }
 
-#popular .flip-box-front.front-img-1,
+#popular .flip-box-front.front-img-1{
+  background-image: url(../images/products/tandori1.jpg) !important;
+}
+
 #popular .flip-box-back.img-1 {
-  background-image: url(../images/products/tandoor.jpg) !important;
+  background-image: url(../images/products/tandori2.jpg) !important;
 }
 
-#popular .flip-box-front.front-img-2,
+#popular .flip-box-front.front-img-2{
+  background-image: url(../images/products/greenchiken1.jpg) !important;
+}
+
 #popular .flip-box-back.img-2 {
-  background-image: url(../images/products/greenchiken.jpg) !important;
+  background-image: url(../images/products/greenchiken2.jpg) !important;
 }
 
-#popular .flip-box-front.front-img-3,
+#popular .flip-box-front.front-img-3{
+  background-image: url(../images/products/pavbhaji1.jpg) !important;
+}
+
 #popular .flip-box-back.img-3 {
-  background-image: url(../images/products/pavbhaji.jpg) !important;
+  background-image: url(../images/products/pavbhaji2.jpg) !important;
 }
 
-#popular .flip-box-front.front-img-4,
+#popular .flip-box-front.front-img-4{
+  background-image: url(../images/products/fish1.jpg) !important;
+}
+
 #popular .flip-box-back.img-4 {
-  background-image: url(../images/products/fish.jpg) !important;
+  background-image: url(../images/products/fish2.jpg) !important;
 }
 
 #popular .flip-box-front::before {

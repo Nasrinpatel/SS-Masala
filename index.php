@@ -35,17 +35,17 @@
   <section class="restho-hero-area style-two">
     <div class="owl-carousel hero-slider">
         <!-- Slide 1 -->
-        <div class="single-slide" data-kicker="Farm To Flavor" data-title="Pure Spices Crafted For Bold Indian Taste" data-desc="Freshly sourced and expertly blended for rich aroma, balanced heat, and consistent quality in every kitchen." style="background-image: url('assets/images/slider/slide1.JPG');">
+        <div class="single-slide" data-kicker="Farm To Flavor" data-title="Pure Spices Crafted For Bold Indian Taste" data-desc="Freshly sourced and expertly blended for rich aroma, balanced heat, and consistent quality in every kitchen." style="background-image: url('assets/images/slider/slider1.jpg');">
           <!-- <div class="container">
             <h1 class="restho-hero-title">Welcome to Our Restaurant</h1>
           </div> -->
         </div>
 
         <!-- Slide 2 -->
-        <div class="single-slide" data-kicker="Authentic Blends" data-title="Traditional Recipes, Modern Purity" data-desc="Carefully balanced masala blends made to deliver consistent taste in every meal you cook." style="background-image: url('assets/images/slider/slide2.JPG');"></div>
+        <div class="single-slide" data-kicker="Authentic Blends" data-title="Traditional Recipes, Modern Purity" data-desc="Carefully balanced masala blends made to deliver consistent taste in every meal you cook." style="background-image: url('assets/images/slider/slider2.jpg');"></div>
 
         <!-- Slide 3 -->
-        <div class="single-slide" data-kicker="Kitchen Confidence" data-title="From Daily Cooking To Festive Dishes" data-desc="Bring depth, color, and signature flavor to curries, grills, and regional specialties." style="background-image: url('assets/images/slider/slide3.JPG');"></div>
+        <div class="single-slide" data-kicker="Kitchen Confidence" data-title="From Daily Cooking To Festive Dishes" data-desc="Bring depth, color, and signature flavor to curries, grills, and regional specialties." style="background-image: url('assets/images/slider/slider3.jpg');"></div>
     </div>
   </section>
     <div class="hero-content-shell">
@@ -79,7 +79,7 @@
         <div class="col-lg-6 col-md-12">
           <div class="about-thumb">
             <div class="about-img">
-              <img src="assets/images/aboutus.png" alt="thumb" />
+              <img src="assets/images/our_story.jpg" alt="thumb" />
             </div>
             <div class="about-thumb-shape2 bounce-animate2">
               <img src="assets/images/home-2/about-shape22.png" alt="shape" />
@@ -154,11 +154,11 @@
                   <div class="flip-box-front front-img-1">
                     <div class="front-part">
                       <div class="front-content-part">
-                        <div class="front-icon-part">
+                        <!--<div class="front-icon-part">
                           <div class="front-box-icon">
                             <img src="assets/images/home-2/flip-icon1.png" alt="icon" />
                           </div>
-                        </div>
+                        </div>-->
                         <div class="front-title-part">
                           <div class="front-title">
                             <h2>TANDOORI CHICKEN MASALA</h2>
@@ -181,11 +181,11 @@
                   <div class="flip-box-front front-img-2">
                     <div class="front-part">
                       <div class="front-content-part">
-                        <div class="front-icon-part">
+                        <!--<div class="front-icon-part">
                           <div class="front-box-icon">
                             <img src="assets/images/home-2/flip-icon1.png" alt="icon" />
                           </div>
-                        </div>
+                        </div>-->
                         <div class="front-title-part">
                           <div class="front-title">
                             <h2>GREEN CHICKEN MASALA</h2>
@@ -208,11 +208,11 @@
                   <div class="flip-box-front front-img-3">
                     <div class="front-part">
                       <div class="front-content-part">
-                        <div class="front-icon-part">
+                        <!--<div class="front-icon-part">
                           <div class="front-box-icon">
                             <img src="assets/images/home-2/flip-icon1.png" alt="icon" />
                           </div>
-                        </div>
+                        </div>-->
                         <div class="front-title-part">
                           <div class="front-title">
                             <h2>PAV BHAJI <br>MASALA</h2>
@@ -235,11 +235,11 @@
                   <div class="flip-box-front front-img-4">
                     <div class="front-part">
                       <div class="front-content-part">
-                        <div class="front-icon-part">
+                        <!--<div class="front-icon-part">
                           <div class="front-box-icon">
                             <img src="assets/images/home-2/flip-icon1.png" alt="icon" />
                           </div>
-                        </div>
+                        </div>-->
                         <div class="front-title-part">
                           <div class="front-title">
                             <h2>FISH <br>MASALA</h2>
