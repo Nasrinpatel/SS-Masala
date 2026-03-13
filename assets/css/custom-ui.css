@@ -360,6 +360,14 @@ section.restho-hero-area.style-two,
     height: 84px;
   }
 
+  .mobile-menu-area.sticky {
+    z-index: 1400;
+  }
+
+  #home {
+    padding-top: 84px;
+  }
+
   section.restho-hero-area.style-two,
   .single-slide {
     height: 66vh;
@@ -372,6 +380,10 @@ section.restho-hero-area.style-two,
 }
 
 @media (max-width: 575px) {
+  #home {
+    padding-top: 78px;
+  }
+
   .section-main-title h1,
   .section-main-title h1 span {
     font-size: 34px;
