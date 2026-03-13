@@ -361,7 +361,72 @@ section.restho-hero-area.style-two,
   }
 
   .mobile-menu-area.sticky {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    right: 0;
     z-index: 1400;
+    min-height: 72px;
+    background: rgba(21, 18, 15, 0.96);
+    backdrop-filter: blur(8px);
+    padding: 12px 16px 10px;
+  }
+
+  .mobile-menu-brand {
+    position: absolute;
+    left: 16px;
+    top: 12px;
+    transform: none;
+    z-index: 1402;
+  }
+
+  .mobile-menu-brand img {
+    display: block;
+    width: auto;
+    height: 48px;
+  }
+
+  .mobile-menu-area .mean-container .mean-bar {
+    min-height: 72px;
+    padding: 0;
+    background: transparent;
+  }
+
+  .mobile-menu-area .mean-container .mean-bar::before,
+  .mobile-menu-area .mean-container .mean-bar::after {
+    display: none !important;
+    content: none !important;
+  }
+
+  .mobile-menu-area .mean-container a.meanmenu-reveal {
+    top: 14px;
+    right: 4px !important;
+    color: #fff;
+  }
+
+  .mobile-menu-area .mean-container .mean-nav {
+    margin-top: 12px;
+    background: linear-gradient(180deg, #1b1713, #2b231e);
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.24);
+  }
+
+  .mobile-menu-area .mean-container .mean-nav ul li {
+    background: transparent;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+  }
+
+  .mobile-menu-area .mean-container .mean-nav ul li a,
+  .mobile-menu-area .mean-container .mean-nav ul li a.mean-expand {
+    background: transparent;
+    color: #f7eadc;
+  }
+
+  .mobile-menu-area .mean-container .mean-nav ul li a:hover,
+  .mobile-menu-area .mean-container .mean-nav ul li a.mean-expand:hover {
+    background: rgba(255, 255, 255, 0.06);
+    color: #ffd5a6;
   }
 
   #home {
@@ -382,6 +447,19 @@ section.restho-hero-area.style-two,
 @media (max-width: 575px) {
   #home {
     padding-top: 78px;
+  }
+
+  .mobile-menu-area.sticky {
+    min-height: 66px;
+    padding-top: 10px;
+  }
+
+  .mobile-menu-brand {
+    top: 10px;
+  }
+
+  .mobile-menu-brand img {
+    height: 42px;
   }
 
   .section-main-title h1,
