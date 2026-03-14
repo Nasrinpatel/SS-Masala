@@ -82,7 +82,7 @@
         <div class="row footer-line align-items-center wow custom-anim-left">
           <div class="col-lg-6 col-md-8">
             <div class="copyright-text">
-              <p>Copyright @ 2025 <span>SS Masala</span> ALL Right Reserved</p>
+              <p>Copyright @ 2025 <span>SS Masala</span> ALL Right Reserved | Powered by <a href="https://optimumitss.com/" target="_blank" rel="noopener noreferrer"><span>Optimum IT Solutions</span></a></p>
             </div>
           </div>
           <div class="col-lg-6 col-md-4">
