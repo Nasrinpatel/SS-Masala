@@ -200,7 +200,7 @@
     <div id="sticky-header" class="restho_nav_manu styl-two">
       <div class="container">
         <div class="row d-flex align-items-center">
-          <div class="col-lg-3" style="max-width: 95px;">
+          <div class="col-lg-3" style="max-height: 95px;">
             <div class="logo">
               <a class="logo_img" href="index.php" title="SS Masala">
                 <img src="assets/images/logo.png" alt="logo" />
