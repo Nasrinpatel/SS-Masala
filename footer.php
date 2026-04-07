@@ -34,10 +34,10 @@
         <div class="col-lg-5 col-md-6 mb-4 mb-md-0">
           <div class="foter-single-box wow custom-anim-left">
             <div class="footer-wiget-title">
-              <h5>About SS Masala</h5>
+              <h5>About My SS Masala</h5>
             </div>
             <div class="footer-wiget-desc">
-              <p style="color: #aeb3b7;">SS Masala brings you the finest, purest spices sourced directly from organic farms. 
+              <p style="color: #aeb3b7;">My SS Masala brings you the finest, purest spices sourced directly from organic farms. 
               Our spices are carefully selected, processed, and packaged to preserve their natural aroma and potency.</p>
             </div>
 
@@ -82,7 +82,7 @@
         <div class="row footer-line align-items-center wow custom-anim-left">
           <div class="col-lg-6 col-md-8">
             <div class="copyright-text">
-              <p>Copyright @ 2025 <span>SS Masala</span> ALL Right Reserved | Powered by <a href="https://optimumitss.com/" target="_blank" rel="noopener noreferrer"><span>Optimum IT Solutions</span></a></p>
+              <p>Copyright @ 2025 <span>My SS Masala</span> ALL Right Reserved | Powered by <a href="https://optimumitss.com/" target="_blank" rel="noopener noreferrer"><span>Optimum IT Solutions</span></a></p>
             </div>
           </div>
           <div class="col-lg-6 col-md-4">
