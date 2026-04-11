@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>SS MASALA</title>
+    <title>MY SS MASALA</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- Favicon -->
@@ -105,13 +105,19 @@
       type="text/css"
       media="all"
     />
+        <link
+      rel="stylesheet"
+      href="assets/css/custom-ui.css"
+      type="text/css"
+      media="all"
+    />
     <link rel="stylesheet" href="assets/css/swiper-bundle.css" />
     <!-- modernizr js -->
     <style>
       .logo_img img {
           max-width: 100%;
           height: auto;
-          max-height: 99px; 
+          max-height: 135px; 
       }
       .logo {
           display: flex;
@@ -120,7 +126,7 @@
       .main_sticky img {
           max-width: 100%;
           height: auto;
-          max-height: 99px;
+          max-height: 135px;
       }
       
     </style>
@@ -194,13 +200,13 @@
     <div id="sticky-header" class="restho_nav_manu styl-two">
       <div class="container">
         <div class="row d-flex align-items-center">
-          <div class="col-lg-3">
+          <div class="col-lg-3" style="max-height: 95px;">
             <div class="logo">
-              <a class="logo_img" href="index.php" title="SS Masala">
-                <img src="assets/images/logo.png" alt="logo" />
+              <a class="logo_img" href="index.php" title="My SS Masala">
+                <img src="assets/images/logo_myssmasala.png" alt="logo" />
               </a>
-              <a class="main_sticky" href="index.php" title="SS Masala">
-                <img src="assets/images/logo.png" alt="astute" />
+              <a class="main_sticky" href="index.php" title="My SS Masala">
+                <img src="assets/images/logo_myssmasala.png" alt="astute" />
               </a>
             </div>
           </div>
@@ -247,6 +253,11 @@
 
     <!-- SS Masala Mobile Menu Area -->
     <div class="mobile-menu-area sticky d-sm-block d-md-block d-lg-none">
+      <div class="mobile-menu-brand">
+        <a href="index.php" title="My SS Masala">
+          <img src="assets/images/logo.png" alt="My SS Masala" />
+        </a>
+      </div>
       <div class="mobile-menu">
         <nav class="restho_menu">
           <ul class="nav_scroll">
@@ -256,10 +267,7 @@
                 <li><a href="#products">Products</a></li>
                 <li><a href="#inquiry">Inquiry</a></li>
                 <li><a href="#gallery">Gallery</a></li>
-                
-            </ul>
-            
-            <li><a href="#">Contact</a></li>
+                <li><a href="#inquiry">Contact</a></li>
           </ul>
         </nav>
       </div>

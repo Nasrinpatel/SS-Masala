@@ -52,11 +52,28 @@
 
   
 
-  // Loder js //
-    // Loder  //
-    $(function () {
-      $('body').addClass('loaded');
-  });
+    // Loder js //
+  // Reliable preloader behavior:
+  // 1) Always reset stale "loaded" class on startup.
+  // 2) Keep loader visible for a minimum duration.
+  // 3) Hide on window load with fallback.
+  var loaderStartAt = Date.now();
+  $("body").removeClass("loaded");
+
+  function hidePreloaderSafely() {
+    var minVisibleMs = 900;
+    var elapsed = Date.now() - loaderStartAt;
+    var wait = Math.max(0, minVisibleMs - elapsed);
+
+    setTimeout(function () {
+      $("body").addClass("loaded");
+    }, wait);
+  }
+
+  $(window).on("load", hidePreloaderSafely);
+
+  // Fallback: if load event is delayed by external assets.
+  setTimeout(hidePreloaderSafely, 4500);
 
 
 
@@ -575,6 +592,177 @@
 
 
   
+
+  // UI polish interactions
+  $(document).ready(function () {
+        var targets = [
+      ".section-title",
+      ".section-desc",
+      ".about-thumb",
+      ".about-content",
+      ".single-flip-box",
+      ".counter-single-box",
+      ".shop-single-box",
+      ".gallery-thumb-box",
+      ".review-slider-card",
+      ".contact-form-box.inner",
+      ".footer-area .foter-single-box",
+      ".footer-area .footer-wiget-quick-contanct"
+    ].join(", ");
+    $(targets).attr("data-reveal", "");
+
+    // Global section animation stagger
+    $("section, .coutner-area, .testimonial-area, .footer-area").each(function () {
+      $(this)
+        .find("[data-reveal]")
+        .each(function (i) {
+          this.style.setProperty("--reveal-delay", (i % 6) * 0.07 + "s");
+        });
+    });
+
+    if ("IntersectionObserver" in window) {
+      var observer = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("is-visible");
+          }
+        });
+      }, { threshold: 0.14, rootMargin: "0px 0px -8% 0px" });
+
+      document.querySelectorAll("[data-reveal]").forEach(function (el) {
+        observer.observe(el);
+      });
+    } else {
+      $("[data-reveal]").addClass("is-visible");
+    }
+
+    var body = $("body");
+    var menuLinks = $(".nav_scroll li a[href^='#']");
+
+    function setScrolledState() {
+      body.toggleClass("has-scrolled", $(window).scrollTop() > 12);
+    }
+
+    function updateActiveMenu() {
+      var scrollPos = $(window).scrollTop() + 130;
+      var currentId = "";
+
+      $("section[id]").each(function () {
+        if ($(this).offset().top <= scrollPos) {
+          currentId = this.id;
+        }
+      });
+
+      if (currentId) {
+        menuLinks.removeClass("active");
+        menuLinks.filter("[href='#" + currentId + "']").addClass("active");
+      }
+    }
+
+    setScrolledState();
+    updateActiveMenu();
+
+    $(window).on("scroll", function () {
+      setScrolledState();
+      updateActiveMenu();
+    });
+  });
+
+  // Second pass enhancements
+  $(document).ready(function () {
+    // Badge color variants by label text
+    $(".spice-badge").each(function () {
+      var text = $(this).text().toLowerCase().replace(/\s+/g, "");
+      $(this).addClass("badge-" + text);
+    });
+
+    // Add lightweight CTA in every product card
+    $(".shop-single-box .shop-content").each(function () {
+      if (!$(this).find(".product-card-link").length) {
+        $(this).append('<a class="product-card-link" href="#inquiry">Inquire Now</a>');
+      }
+    });
+
+    // Ken Burns effect only on current hero slide
+    function markActiveHeroSlide() {
+      $(".hero-slider .single-slide").removeClass("is-active-slide");
+      $(".hero-slider .owl-item.active .single-slide").first().addClass("is-active-slide");
+    }
+
+    $(".hero-slider").on("initialized.owl.carousel changed.owl.carousel translated.owl.carousel", function () {
+      markActiveHeroSlide();
+    });
+
+    setTimeout(markActiveHeroSlide, 80);
+  });
+
+  // Inquiry form interactions and submit handling
+  $(document).ready(function () {
+    var inquiryForm = document.getElementById("inquiryForm");
+    if (!inquiryForm) {
+      return;
+    }
+
+    var messageField = inquiryForm.querySelector('textarea[name="Message"]');
+    var charCount = document.getElementById("charCount");
+    var submitButton = inquiryForm.querySelector('button[type="submit"]');
+    var formStatus = document.getElementById("formStatus");
+    var defaultButtonHtml = submitButton ? submitButton.innerHTML : "Send Inquiry";
+
+    function updateCharCount() {
+      if (!messageField || !charCount) {
+        return;
+      }
+      charCount.textContent = messageField.value.length;
+    }
+
+    function setFormStatus(type, text) {
+      if (!formStatus) {
+        return;
+      }
+      formStatus.className = "form-status show " + (type || "");
+      formStatus.textContent = text || "";
+    }
+
+    if (messageField) {
+      messageField.addEventListener("input", updateCharCount);
+      updateCharCount();
+    }
+
+    inquiryForm.addEventListener("submit", function (event) {
+      event.preventDefault();
+
+      if (submitButton) {
+        submitButton.disabled = true;
+        submitButton.innerHTML = 'Sending <i class="bi bi-arrow-repeat"></i>';
+      }
+      setFormStatus("", "");
+
+      fetch("send_inquiry.php", {
+        method: "POST",
+        body: new FormData(inquiryForm)
+      })
+        .then(function (response) {
+          return response.json();
+        })
+        .then(function (result) {
+          if (result && result.success) {
+            setFormStatus("success", result.message || "Your inquiry has been sent successfully.");
+            inquiryForm.reset();
+            updateCharCount();
+            return;
+          }
+          setFormStatus("error", (result && result.message) ? result.message : "Unable to send inquiry right now.");
+        })
+        .catch(function () {
+          setFormStatus("error", "Something went wrong while sending your inquiry. Please try again.");
+        })
+        .finally(function () {
+          if (submitButton) {
+            submitButton.disabled = false;
+            submitButton.innerHTML = defaultButtonHtml;
+          }
+        });
+    });
+  });
 })(jQuery);
-
-

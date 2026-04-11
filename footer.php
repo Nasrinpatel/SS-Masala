@@ -34,10 +34,10 @@
         <div class="col-lg-5 col-md-6 mb-4 mb-md-0">
           <div class="foter-single-box wow custom-anim-left">
             <div class="footer-wiget-title">
-              <h5>About SS Masala</h5>
+              <h5>About My SS Masala</h5>
             </div>
             <div class="footer-wiget-desc">
-              <p style="color: #aeb3b7;">SS Masala brings you the finest, purest spices sourced directly from organic farms. 
+              <p style="color: #aeb3b7;">My SS Masala brings you the finest, purest spices sourced directly from organic farms. 
               Our spices are carefully selected, processed, and packaged to preserve their natural aroma and potency.</p>
             </div>
 
@@ -82,7 +82,7 @@
         <div class="row footer-line align-items-center wow custom-anim-left">
           <div class="col-lg-6 col-md-8">
             <div class="copyright-text">
-              <p>Copyright @ 2025 <span>SS Masala</span> ALL Right Reserved</p>
+              <p>Copyright @ 2025 <span>My SS Masala</span> ALL Right Reserved | Powered by <a href="https://optimumitss.com/" target="_blank" rel="noopener noreferrer"><span>Optimum IT Solutions</span></a></p>
             </div>
           </div>
           <div class="col-lg-6 col-md-4">
@@ -156,20 +156,6 @@
     <script src="assets/js/main.js"></script>
     <!-- Owl Carousel Init -->
     <script>
-    $(document).ready(function(){
-      $(".hero-slider").owlCarousel({
-        items:1,
-        loop:true,
-        autoplay:true,
-        autoplayTimeout:4000,
-        smartSpeed:800,
-        nav:true,
-        dots:true
-      });
-    });
-
-    </script>
-    <script>
   $(document).ready(function() {
     // Smooth scrolling for navigation links
     $('a[href^="#"]').on('click', function(event) {
@@ -204,17 +190,35 @@
       } else {
         $('.back-to-top').fadeOut();
       }
-    });
-    
-    // Initialize Owl Carousel
-    $(".hero-slider").owlCarousel({
+    });    // Initialize Owl Carousel + sync hero text with active slide
+    var $heroSlider = $(".hero-slider");
+    var $heroKicker = $(".hero-kicker");
+    var $heroTitle = $(".hero-content-grid h1");
+    var $heroDesc = $(".hero-content-grid p");
+
+    function syncHeroText() {
+      var $active = $heroSlider.find(".owl-item.active .single-slide").first();
+      if (!$active.length) return;
+
+      var kicker = $active.attr("data-kicker") || "";
+      var title = $active.attr("data-title") || "";
+      var desc = $active.attr("data-desc") || "";
+
+      $heroKicker.text(kicker);
+      $heroTitle.text(title);
+      $heroDesc.text(desc);
+    }
+
+    $heroSlider.owlCarousel({
       items:1,
       loop:true,
       autoplay:true,
       autoplayTimeout:4000,
       smartSpeed:800,
       nav:true,
-      dots:true
+      dots:true,
+      onInitialized: syncHeroText,
+      onChanged: syncHeroText
     });
   });
 </script>

@@ -35,19 +35,37 @@
   <section class="restho-hero-area style-two">
     <div class="owl-carousel hero-slider">
         <!-- Slide 1 -->
-        <div class="single-slide" style="background-image: url('assets/images/slider/slide1.JPG');">
+        <div class="single-slide" data-kicker="Farm To Flavor" data-title="Pure Spices Crafted For Bold Indian Taste" data-desc="Freshly sourced and expertly blended for rich aroma, balanced heat, and consistent quality in every kitchen." style="background-image: url('assets/images/slider/slider1.jpg');">
           <!-- <div class="container">
             <h1 class="restho-hero-title">Welcome to Our Restaurant</h1>
           </div> -->
         </div>
 
         <!-- Slide 2 -->
-        <div class="single-slide" style="background-image: url('assets/images/slider/slide2.JPG');"></div>
+        <div class="single-slide" data-kicker="Authentic Blends" data-title="Traditional Recipes, Modern Purity" data-desc="Carefully balanced masala blends made to deliver consistent taste in every meal you cook." style="background-image: url('assets/images/slider/slider2.jpg');"></div>
 
         <!-- Slide 3 -->
-        <div class="single-slide" style="background-image: url('assets/images/slider/slide3.JPG');"></div>
+        <div class="single-slide" data-kicker="Kitchen Confidence" data-title="From Daily Cooking To Festive Dishes" data-desc="Bring depth, color, and signature flavor to curries, grills, and regional specialties." style="background-image: url('assets/images/slider/slider3.jpg');"></div>
     </div>
   </section>
+    <div class="hero-content-shell">
+      <div class="container">
+        <div class="hero-content-grid">
+          <span class="hero-kicker">Farm To Flavor</span>
+          <h1>Pure Spices Crafted For Bold Indian Taste</h1>
+          <p>Freshly sourced and expertly blended for rich aroma, balanced heat, and consistent quality in every kitchen.</p>
+          <div class="hero-cta-group">
+            <a class="hero-btn hero-btn-primary" href="#products">Explore Products</a>
+            <a class="hero-btn hero-btn-ghost" href="#inquiry">Quick Inquiry</a>
+          </div>
+          <div class="hero-trust-bar">
+            <div class="hero-trust-item"><strong>20+</strong><span>Spice Blends</span></div>
+            <div class="hero-trust-item"><strong>100%</strong><span>Hygienic Packing</span></div>
+            <div class="hero-trust-item"><strong>Fresh</strong><span>Batch Processing</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
 </section>
 
 
@@ -61,7 +79,7 @@
         <div class="col-lg-6 col-md-12">
           <div class="about-thumb">
             <div class="about-img">
-              <img src="assets/images/aboutus.png" alt="thumb" />
+              <img src="assets/images/our_story.jpg" alt="thumb" />
             </div>
             <div class="about-thumb-shape2 bounce-animate2">
               <img src="assets/images/home-2/about-shape22.png" alt="shape" />
@@ -73,10 +91,7 @@
             <div class="section-title left-text">
               <div class="section-sub-title">
                 <h5>
-                  <span
-                    ><img
-                      src="assets/images/home-1/section-icon.png"
-                      alt="icon" /></span>Our Story
+                  <span class="title-icon"><i class="fa-solid fa-seedling" aria-hidden="true"></i></span>Our Story
                 </h5>
               </div>
               
@@ -117,20 +132,16 @@
             <div class="section-title text-center wow custom-anim-left">
               <div class="section-sub-title">
                 <h5>
-                  <span
-                    ><img
-                      src="assets/images/home-1/section-icon.png"
-                      alt="icon" /></span
-                  >Our Strength
+                  <span class="title-icon"><i class="fa-solid fa-award" aria-hidden="true"></i></span>Our Strength
                 </h5>
               </div>
               <div class="section-main-title">
-                <h1>Our Popular Delicious <span>Spices</span></h1>
+                <h1>Our Popular Signature <span>Spices</span></h1>
               </div>
             </div>
             <div class="section-desc wow custom-anim-left">
               <p>
-               Fetch from Organic Farms
+               Freshly sourced from organic farms
               </p>
             </div>
           </div>
@@ -140,41 +151,24 @@
             <div class="single-flip-box wow custom-anim-left">
               <div class="flip-box">
                 <div class="flip-box-inner">
-                  <div class="flip-box-front">
+                  <div class="flip-box-front front-img-1">
                     <div class="front-part">
                       <div class="front-content-part">
-                        <div class="front-icon-part">
+                        <!--<div class="front-icon-part">
                           <div class="front-box-icon">
-                            <img
-                              src="assets/images/home-2/flip-icon1.png"
-                              alt="icon"
-                            />
+                            <img src="assets/images/home-2/flip-icon1.png" alt="icon" />
                           </div>
-                        </div>
+                        </div>-->
                         <div class="front-title-part">
                           <div class="front-title">
                             <h2>TANDOORI CHICKEN MASALA</h2>
                           </div>
                         </div>
-                        <!-- <div class="front-desc-part">
-                          <p class="front-desc">
-                            Professionally fabricate business impactful tencie
-                            Compellingly impact technically.
-                          </p>
-                        </div>
-                        <div class="front-btn-part">
-                          <a href="menu.html"
-                            ><span class="round-circle"></span
-                            ><i class="fa-solid fa-angle-right"></i>Read More</a
-                          >
-                        </div> -->
                       </div>
                     </div>
                   </div>
                   <div class="flip-box-back img-1">
-                    <div class="back-btn-part">
-                      
-                    </div>
+                    <div class="back-btn-part"></div>
                   </div>
                 </div>
               </div>
@@ -184,42 +178,24 @@
             <div class="single-flip-box wow custom-anim-top">
               <div class="flip-box">
                 <div class="flip-box-inner">
-                  <div class="flip-box-front">
+                  <div class="flip-box-front front-img-2">
                     <div class="front-part">
                       <div class="front-content-part">
-                        <div class="front-icon-part">
+                        <!--<div class="front-icon-part">
                           <div class="front-box-icon">
-                           <img
-                              src="assets/images/home-2/flip-icon1.png"
-                              alt="icon"
-                            />
+                            <img src="assets/images/home-2/flip-icon1.png" alt="icon" />
                           </div>
-                        </div>
+                        </div>-->
                         <div class="front-title-part">
                           <div class="front-title">
                             <h2>GREEN CHICKEN MASALA</h2>
                           </div>
                         </div>
-                        <!-- <div class="front-desc-part">
-                          <p class="front-desc">
-                            Professionally fabricate business impactful tencie
-                            Compellingly impact technically.
-                          </p>
-                        </div>
-                        <div class="front-btn-part">
-                          <a href="menu.html"
-                            ><span class="round-circle"></span
-                            ><i class="fa-solid fa-angle-right"></i>Read More</a
-                          >
-                        </div> -->
                       </div>
                     </div>
                   </div>
-                    <div class="flip-box-back img-2">
-
-                    <div class="back-btn-part">
-                     
-                    </div>
+                  <div class="flip-box-back img-2">
+                    <div class="back-btn-part"></div>
                   </div>
                 </div>
               </div>
@@ -229,41 +205,24 @@
             <div class="single-flip-box wow custom-anim-bottom">
               <div class="flip-box">
                 <div class="flip-box-inner">
-                  <div class="flip-box-front">
+                  <div class="flip-box-front front-img-3">
                     <div class="front-part">
                       <div class="front-content-part">
-                        <div class="front-icon-part">
+                        <!--<div class="front-icon-part">
                           <div class="front-box-icon">
-                            <img
-                              src="assets/images/home-2/flip-icon1.png"
-                              alt="icon"
-                            />
+                            <img src="assets/images/home-2/flip-icon1.png" alt="icon" />
                           </div>
-                        </div>
+                        </div>-->
                         <div class="front-title-part">
                           <div class="front-title">
                             <h2>PAV BHAJI <br>MASALA</h2>
                           </div>
                         </div>
-                        <!-- <div class="front-desc-part">
-                          <p class="front-desc">
-                            Professionally fabricate business impactful tencie
-                            Compellingly impact technically.
-                          </p>
-                        </div>
-                        <div class="front-btn-part">
-                          <a href="menu.html"
-                            ><span class="round-circle"></span
-                            ><i class="fa-solid fa-angle-right"></i>Read More</a
-                          >
-                        </div> -->
                       </div>
                     </div>
                   </div>
                   <div class="flip-box-back img-3">
-                    <div class="back-btn-part">
-                    
-                    </div>
+                    <div class="back-btn-part"></div>
                   </div>
                 </div>
               </div>
@@ -273,43 +232,24 @@
             <div class="single-flip-box wow custom-anim-right">
               <div class="flip-box">
                 <div class="flip-box-inner">
-                  <div class="flip-box-front">
+                  <div class="flip-box-front front-img-4">
                     <div class="front-part">
                       <div class="front-content-part">
-                        <div class="front-icon-part">
+                        <!--<div class="front-icon-part">
                           <div class="front-box-icon">
-                            <img
-                              src="assets/images/home-2/flip-icon1.png"
-                              alt="icon"
-                            />
+                            <img src="assets/images/home-2/flip-icon1.png" alt="icon" />
                           </div>
-                        </div>
+                        </div>-->
                         <div class="front-title-part">
                           <div class="front-title">
                             <h2>FISH <br>MASALA</h2>
                           </div>
                         </div>
-                        <!-- <div class="front-desc-part">
-                          <p class="front-desc">
-                            Professionally fabricate business impactful tencie
-                            Compellingly impact technically.
-                          </p>
-                        </div>
-                        <div class="front-btn-part">
-                          <a href="menu.html"
-                            ><span class="round-circle"></span
-                            ><i class="fa-solid fa-angle-right"></i>Read More</a
-                          >
-                        </div> -->
                       </div>
                     </div>
                   </div>
                   <div class="flip-box-back img-4">
-                    <div class="back-btn-part">
-                      <!-- <a href="menu.html"
-                        ><i class="fa-solid fa-angle-right"></i>Read More</a
-                      > -->
-                    </div>
+                    <div class="back-btn-part"></div>
                   </div>
                 </div>
               </div>
@@ -369,9 +309,9 @@
                   <i class="fas fa-user-friends"></i>
               </div>
               <div class="counter-content">
-                  <div class="odometer-wrapper counter-box-title" data-count="5.8">
+                  <div class="odometer-wrapper counter-box-title" data-count="5800">
                       <h1 class="odometer">0</h1>
-                      <h1 class="odometer-k">k</h1>
+                      <h1 class="odometer-k">+</h1>
                   </div>
                   <div class="counter-desc">
                       <p>Happy Customers</p>
@@ -413,13 +353,12 @@
               <div class="section-title text-center wow custom-anim-left">
                 <div class="section-sub-title">
                   <h5>
-                    <span><img
-                        src="assets/images/home-1/section-icon.png"
-                        alt="icon" /></span>  Our Premium Products
+                    <span class="title-icon"><i class="fa-solid fa-mortar-pestle" aria-hidden="true"></i></span>Our Premium Products
                   </h5>
                 </div>
                 <div class="section-main-title" style="margin-bottom: 100px;">
                   <h1>Authentic Indian Masalas & Spices</h1>
+                <p class="section-lead">Crafted for authentic taste, daily cooking confidence, and small-batch consistency.</p>
                 </div>
               </div>
             </div>
@@ -846,7 +785,7 @@
                     <div class="section-title text-center">
                         <div class="section-sub-title">
                             <h5>
-                                <span><img src="assets/images/home-1/section-icon.png" alt="icon"></span>
+                                <span class="title-icon"><i class="fa-solid fa-paper-plane" aria-hidden="true"></i></span>
                                 Product Inquiry
                             </h5>
                         </div>
@@ -857,9 +796,24 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-12">
-                    <div class="contact-form-box inner">
-                        <form id="inquiryForm">
+                <div class="col-lg-4">
+                    <div class="inquiry-side-card">
+                        <h3>Need Bulk Supply?</h3>
+                        <p>Share your requirement and our team will get back with product details, pricing, and delivery support.</p>
+                        <ul class="inquiry-points">
+                            <li><i class="fa-solid fa-circle-check" aria-hidden="true"></i> Quick response within 24 hours</li>
+                            <li><i class="fa-solid fa-circle-check" aria-hidden="true"></i> Custom bulk quantity options</li>
+                            <li><i class="fa-solid fa-circle-check" aria-hidden="true"></i> Pan-India & export-ready support</li>
+                        </ul>
+                        <div class="inquiry-contact-mini">
+                            <a href="mailto:MYSSMASALA@GMAIL.COM"><i class="fa-regular fa-envelope" aria-hidden="true"></i> MYSSMASALA@GMAIL.COM</a>
+                            <a href="tel:+919725820297"><i class="fa-solid fa-phone" aria-hidden="true"></i> +91 9725820297</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="contact-form-box inner inquiry-form-wrap">
+                        <form id="inquiryForm" method="post" action="send_inquiry.php" novalidate>
                             <div class="row">
                                 <div class="col-lg-6">
                                     <div class="form-box">
@@ -881,6 +835,11 @@
                                         <input type="text" name="Company" placeholder="Company Name (Optional)">
                                     </div>
                                 </div>
+                                <div class="col-lg-12">
+                                    <div class="form-box">
+                                        <input type="text" name="Product" placeholder="Interested Product (Optional)">
+                                    </div>
+                                </div>
                                 
                                 <div class="col-lg-12">
                                     <div class="form-box">
@@ -894,6 +853,7 @@
                                             Send Inquiry <i class="bi bi-arrow-right-short"></i>
                                         </button>
                                     </div>
+                                    <div class="form-status" id="formStatus" aria-live="polite"></div>
                                 </div>
                             </div>
                         </form>
@@ -919,11 +879,7 @@
             <div class="section-title text-center wow custom-anim-left">
               <div class="section-sub-title">
                 <h5>
-                  <span
-                    ><img
-                      src="assets/images/home-1/section-icon.png"
-                      alt="icon" /></span
-                  >Recent Gallery
+                  <span class="title-icon"><i class="fa-solid fa-images" aria-hidden="true"></i></span>Recent Gallery
                 </h5>
               </div>
               <div class="section-main-title">
@@ -1059,7 +1015,7 @@
         <div class="section-title text-center wow custom-anim-left">
           <div class="section-sub-title">
             <h5>
-              <span><img src="assets/images/home-1/section-icon.png" alt="icon" /></span>Testimonials
+              <span class="title-icon"><i class="fa-solid fa-quote-left" aria-hidden="true"></i></span>Testimonials
             </h5>
           </div>
           <div class="section-main-title">
